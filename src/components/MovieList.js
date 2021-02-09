@@ -85,7 +85,7 @@ const MovieList = () => {
     },
   ];
       const handleItem = (name, date) => {
-        alert(`This is ${name} movie and it's deliverd in ${date}`)
+        alert(`This is ${name} movie and it's released in ${date}`)
     };
     return (
         <div className="MovieList">
